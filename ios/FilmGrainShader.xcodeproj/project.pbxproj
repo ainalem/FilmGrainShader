@@ -12,8 +12,12 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		156A57CCC680A588D02CF8ED /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		3C3B376B376D4A4B9302373B /* Satoshi-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D62F56B368D84D3CB7D01B7D /* Satoshi-Regular.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-FilmGrainShader-FilmGrainShaderTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-FilmGrainShader-FilmGrainShaderTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		98F31497C5E640BAA346074D /* nano.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2AF44D8FB0A24662A462BF27 /* nano.ttf */; };
+		ABA8854BA81543E39BCB91F8 /* Satoshi-Variable.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12EE1E64EF7E464DA81D6D2B /* Satoshi-Variable.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,7 @@
 		00E356EE1AD99517003FC87E /* FilmGrainShaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmGrainShaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* FilmGrainShaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmGrainShaderTests.m; sourceTree = "<group>"; };
+		12EE1E64EF7E464DA81D6D2B /* Satoshi-Variable.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Variable.ttf"; path = "../assets/fonts/Satoshi-Variable.ttf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* FilmGrainShader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmGrainShader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FilmGrainShader/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = FilmGrainShader/AppDelegate.mm; sourceTree = "<group>"; };
@@ -38,12 +43,14 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = FilmGrainShader/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = FilmGrainShader/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-FilmGrainShader-FilmGrainShaderTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FilmGrainShader-FilmGrainShaderTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF44D8FB0A24662A462BF27 /* nano.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = nano.ttf; path = ../assets/fonts/nano.ttf; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-FilmGrainShader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmGrainShader.debug.xcconfig"; path = "Target Support Files/Pods-FilmGrainShader/Pods-FilmGrainShader.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-FilmGrainShader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmGrainShader.release.xcconfig"; path = "Target Support Files/Pods-FilmGrainShader/Pods-FilmGrainShader.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-FilmGrainShader-FilmGrainShaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmGrainShader-FilmGrainShaderTests.debug.xcconfig"; path = "Target Support Files/Pods-FilmGrainShader-FilmGrainShaderTests/Pods-FilmGrainShader-FilmGrainShaderTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-FilmGrainShader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FilmGrainShader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = FilmGrainShader/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-FilmGrainShader-FilmGrainShaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FilmGrainShader-FilmGrainShaderTests.release.xcconfig"; path = "Target Support Files/Pods-FilmGrainShader-FilmGrainShaderTests/Pods-FilmGrainShader-FilmGrainShaderTests.release.xcconfig"; sourceTree = "<group>"; };
+		D62F56B368D84D3CB7D01B7D /* Satoshi-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Satoshi-Regular.ttf"; path = "../assets/fonts/Satoshi-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -124,6 +131,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				9D2CE1FDBBF44FFD8C564274 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -137,6 +145,17 @@
 				00E356EE1AD99517003FC87E /* FilmGrainShaderTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9D2CE1FDBBF44FFD8C564274 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D62F56B368D84D3CB7D01B7D /* Satoshi-Regular.ttf */,
+				12EE1E64EF7E464DA81D6D2B /* Satoshi-Variable.ttf */,
+				2AF44D8FB0A24662A462BF27 /* nano.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
@@ -245,6 +264,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				156A57CCC680A588D02CF8ED /* PrivacyInfo.xcprivacy in Resources */,
+				3C3B376B376D4A4B9302373B /* Satoshi-Regular.ttf in Resources */,
+				ABA8854BA81543E39BCB91F8 /* Satoshi-Variable.ttf in Resources */,
+				98F31497C5E640BAA346074D /* nano.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +607,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -649,7 +679,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
